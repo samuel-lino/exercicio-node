@@ -1,0 +1,19 @@
+{
+  "name": "meuscontatos",
+  "version": "1.0.0",
+  "description": "projeto para gerenciar meus contatos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel-lino/exercicio-node.git"
+  },
+  "author": "Samuel Eduardo Lino Gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel-lino/exercicio-node/issues"
+  },
+  "homepage": "https://github.com/samuel-lino/exercicio-node#readme"
+}
