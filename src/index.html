@@ -4,11 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meus contatos</title>
+    <style>
+        .main{
+            height: 100vw;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border: none;
+        }
+        .exibir{
+            display: flex;
+            align-items: normal;
+            text-align: left;
+            flex-direction: column;
+            border: solid black;
+        }
+        div{
+            margin-top: 2%;
+            width: 12%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            border: solid black;
+        }
+        
+    </style>
 </head>
 <body>
-    <button id="btn">aqui</button>
-    <input type="text" placeholder="digite o nome" class="contato">
-    <ul id="list"></ul>
-    <div id="exibir"></div>
+    <div class="main">
+        <div class="exibir">
+            <h2>Meus contatos</h2>
+            <ul id="list"></ul>
+        </div>
+        <div class="add">
+            <h2>Novo contato</h2>
+            <form >
+                <input type="text" placeholder="nome" class="name" name="nome">
+                <input type="text" placeholder="telefone" class="tel" name="telefone">
+                <input type="text" name="email" class="email" placeholder="E-mail">
+                <button class="adicionar" type="submit">enviar</button>
+            </form>
+        </div>
+        <div class="alt">
+            <h2>Alterar contato</h2>
+            <h5>Escolha o contato</h5>
+            <select id="contact">
+
+            </select>
+            <form id="muda">
+                <input type="text" placeholder="nome" id="name" name="nome">
+                <input type="text" placeholder="telefone" id="tel" name="telefone">
+                <input type="text" name="email" id="email" placeholder="E-mail">
+                <button type="submit" class="muda">enviar</button>
+            </form>
+            
+        </div>
+      
+        <div class="delet">
+            <h2>Apagar contato</h2>
+            <h5>Escolha o contato</h5>
+            <select id="deletar">
+
+            </select>
+            <button class="del">apagar</button>
+        </div>
+
+    </div>
 </body>
 </html>
